@@ -1,5 +1,5 @@
-FROM microsoft/windowsservercore
-# windowsservercore :10.0.14393.576_de-de
+FROM microsoft/windowsservercore:10.0.14393.576_de-de
+# windowsservercore 
 # $ProgressPreference: https://github.com/PowerShell/PowerShell/issues/2138#issuecomment-251261324
 SHELL ["powershell", "-Command", "$ErrorActionPreference = 'Stop'; $ProgressPreference = 'SilentlyContinue';"]
 
